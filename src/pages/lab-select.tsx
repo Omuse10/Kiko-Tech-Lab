@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { GraduationCap, User, Building2, School, BookOpen, Briefcase } from 'lucide-react';
 

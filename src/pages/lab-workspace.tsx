@@ -96,7 +96,7 @@ export function LabWorkspace() {
           </div>
 
           <div className="p-6">
-            <Tool collaborative={true} />
+            <Tool collaborative={true} projectId="default-project-id" />
           </div>
         </div>
       </div>
