@@ -20,9 +20,7 @@ function Footer() {
               </span>
             </div>
             <p className="text-gray-400 mb-4">
-              Transforming communities across Kenya through sustainable
-              development programs that empower local leaders and foster
-              long-term growth.
+            Transforming communities across Kenya through cutting-edge tech labs that empower learners, foster innovation, and create future-ready digital leaders
             </p>
 
             {/* Social links */}
@@ -67,13 +65,13 @@ function Footer() {
               <h3 className="text-white font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                    className="hover:text-emerald-400 transition-colors">About Us</Link></li>
+                    className="hover:text-emerald-400 transition-colors">Labs</Link></li>
                 <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                    className="hover:text-emerald-400 transition-colors">Our Programs</Link></li>
+                    className="hover:text-emerald-400 transition-colors">Tutorials</Link></li>
                 <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                    className="hover:text-emerald-400 transition-colors">Impact Stories</Link></li>
+                    className="hover:text-emerald-400 transition-colors">Collaborate</Link></li>
                 <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                    className="hover:text-emerald-400 transition-colors">Our Team</Link></li>
+                    className="hover:text-emerald-400 transition-colors">Pricing</Link></li>
               </ul>
           </div>
 
@@ -82,11 +80,11 @@ function Footer() {
             <h3 className="text-white font-semibold mb-4">Get Involved</h3>
             <ul className="space-y-2">
               <li><Link to="/volunteer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                  className="hover:text-emerald-400 transition-colors">Volunteer</Link></li>
+                  className="hover:text-emerald-400 transition-colors">Join a Lab</Link></li>
               <li><Link to="/donate" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-                  className="hover:text-emerald-400 transition-colors">Donate</Link></li>
-              <li><a href="#corporate" className="hover:text-emerald-400 transition-colors">Corporate Giving</a></li>
-              <li><a href="#reports" className="hover:text-emerald-400 transition-colors">Annual Reports</a></li>
+                  className="hover:text-emerald-400 transition-colors">Become a Mentor</Link></li>
+              <li><a href="#corporate" className="hover:text-emerald-400 transition-colors">Partner With Us</a></li>
+              <li><a href="#reports" className="hover:text-emerald-400 transition-colors">Contribute Projects</a></li>
             </ul>
           </div>
         </div>

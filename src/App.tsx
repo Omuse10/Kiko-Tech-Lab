@@ -6,6 +6,9 @@ import { LabsPage } from './pages/labs';
 import { LoginPage } from './pages/login';
 import { LabWorkspace } from './pages/lab-workspace';
 import { LabSelectPage } from './pages/lab-select';
+import { TutorialPage } from './pages/Tutorials';
+import { CollaboratePage } from './pages/Collaborate';
+import { PricingPage } from './pages/Pricing';
 import { useAuthStore } from './stores/auth';
 
 function App() {
@@ -33,6 +36,9 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/lab-select/:labType" element={<LabSelectPage />} />
           <Route path="/lab/:labType/:projectId" element={<LabWorkspace />} />
+          <Route path="/tutorials" element={<TutorialPage />} />
+          <Route path="/collaborate" element={<CollaboratePage />} />
+          <Route path="/pricing" element={<PricingPage />} />
         </Routes>
       </div>
     </Router>
